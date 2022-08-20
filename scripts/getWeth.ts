@@ -1,7 +1,7 @@
 import { ethers, network } from "hardhat";
 import { networkConfig } from "../helper-hardhat-config";
 
-const AMOUNT = ethers.utils.parseEther("0.02");
+export const AMOUNT = ethers.utils.parseEther("0.02");
 
 export const getWeth = async () => {
     const accounts = await ethers.getSigners();
